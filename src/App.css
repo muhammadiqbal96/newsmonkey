@@ -1,0 +1,256 @@
+.navbar-brand {
+  margin-top: 1px;
+  font-size: 24px;
+  font-weight: bolder;
+  transition: .4s;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1);
+}
+
+.nav-link {
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: bolder;
+  transition: .2s;
+}
+
+#hover1:hover {
+  margin-top: 2px;
+  color: brown;
+  border-bottom: 4px solid blue;
+  border-radius: 2px;
+}
+
+#hover2:hover {
+  margin-top: 2px;
+  color: brown;
+  border-bottom: 4px solid blue;
+  border-radius: 2px;
+}
+
+.imagesicon {
+  padding: 40px;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  object-fit: cover;
+  justify-self: center;
+}
+
+.imagesicon:hover {
+  background-color: #DCD0FF;
+}
+
+#loader div {
+  width: 10px;
+  height: 10px;
+  background-color: aqua;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#loader section:first-of-type div {
+  animation: wave_loader1 1s ease-in-out infinite;
+}
+
+
+#loader section:last-of-type div {
+  opacity: .1;
+  animation: wave_loader_reflection 1s ease-in-out infinite;
+}
+
+#loader section div:nth-of-type(2) {
+  animation-delay: .1s
+}
+
+#loader section div:nth-of-type(3) {
+  animation-delay: .2s
+}
+
+#loader section div:nth-of-type(4) {
+  animation-delay: .3s
+}
+
+#loader section div:nth-of-type(5) {
+  animation-delay: .4s
+}
+
+#loader section div:last-of-type {
+  animation-delay: .5s
+}
+
+#loader section {
+  position: relative;
+  top: 110px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#loader section:last-of-type {
+  top: 112px
+}
+
+
+
+@keyframes wave_loader1 {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+    background-color: teal
+  }
+}
+
+@keyframes wave_loader_reflection {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(5px);
+    background-color: teal
+  }
+}
+@media only screen and (max-width: 767px) {
+  #media-query{
+    padding-left: 23%;
+  }
+}
+@media only screen and (max-width: 571px) {
+  #media-query{
+    padding-left: 23%;
+  }
+}
+@media only screen and (max-width: 530px) {
+  #media-query{
+    padding-left: 20%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #media-query{
+    padding-left: 17%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  #media-query{
+    padding-left: 13%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #media-query{
+    padding-left: 10%;
+  }
+}
+@media only screen and (max-width: 370px) {
+  #media-query{
+    padding-left: 9%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  #media-query{
+    padding-left: 6%;
+  }
+}
+@media only screen and (max-width: 330px) {
+  #media-query{
+    padding-left: 3%;
+  }
+}
+@media only screen and (max-width: 315px) {
+  #media-query{
+    padding-left: 1%;
+  }
+}
+@media only screen and (max-width: 300px) {
+  #media-query{
+    padding-left: none;
+  }
+}
+#category-cont{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+@media only screen and (max-width: 1380px) {
+  #category-cont{
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1130px) {
+  #category-cont{
+    width: 65%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #category-cont{
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+@media only screen and (max-width: 855px) {
+  #category-cont{
+    width: 55%;
+    margin-left: 25%;
+  }
+}
+@media only screen and (max-width: 785px) {
+  #category-cont{
+    width: 60%;
+    margin-left: 23%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #category-cont{
+    margin-left: 23%;
+  }
+}
+@media only screen and (max-width: 670px) {
+  #category-cont{
+    width: 70%;
+    margin-left: 16%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  #category-cont{
+    padding-left: 15%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  #category-cont{
+    padding-left: 12%;
+  }
+}
+@media only screen and (max-width: 390px) {
+  #category-cont{
+    padding-left: 11%;
+  }
+}
+@media only screen and (max-width: 370px) {
+  #category-cont{
+    padding-left: 10%;
+  }
+}
+@media only screen and (max-width: 340px) {
+  #category-cont{
+    padding-left: 9%;
+  }
+}
+@media only screen and (max-width: 310px) {
+  #category-cont{
+    padding-left: 7%;
+  }
+}
+@media only screen and (max-width: 275px) {
+  #category-cont{
+    padding-left: 5%;
+  }
+}
